@@ -3,7 +3,7 @@ import SocialLogin from "../SocialLogin";
 
 const RightNav = () => {
   return (
-    <div className="space-y-5">
+    <div className="space-y-5 sticky top-16 z-10">
       <SocialLogin></SocialLogin>
       <FindUs></FindUs>
     </div>
